@@ -1,0 +1,43 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Cachés y artefactos Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Salidas temporales, datos y basura de notebooks/scripts
+**/data/
+**/raw/
+**/processed/
+**/MNIST/
+**/checkpoints/
+**/artifacts/
+**/outputs/
+**/tmp/
+**/temp/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Variables de entorno locales
+.env
+.env.*
+
+# Permitir solo lo esencial del repo
+!**/*.ipynb
+!**/*.md
+!requirements.txt
