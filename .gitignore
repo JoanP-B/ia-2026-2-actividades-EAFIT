@@ -41,3 +41,5 @@ Thumbs.db
 !**/*.ipynb
 !**/*.md
 !requirements.txt
+!**/image.png
+!image.png
