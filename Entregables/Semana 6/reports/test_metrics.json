@@ -1,0 +1,5 @@
+{
+    "champion_model": "LogisticRegression",
+    "test_accuracy": 0.9722222222222222,
+    "test_f1_macro": 0.9709618874773139
+}
