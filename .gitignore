@@ -1,0 +1,80 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Cachés y artefactos Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Salidas temporales, datos y basura de notebooks/scripts
+**/data/
+**/raw/
+**/processed/
+**/MNIST/
+**/checkpoints/
+**/artifacts/
+**/outputs/
+**/tmp/
+**/temp/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos multimedia (incluidos recursos educativos y datos locales)
+*.[pP][nN][gG]
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[gG][iI][fF]
+*.[bB][mM][pP]
+*.[wW][eE][bB][pP]
+*.[aA][vV][iI][fF]
+*.[sS][vV][gG]
+*.[jJ][xX][lL]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[hH][eE][iI][cC]
+*.[hH][eE][iI][fF]
+*.[rR][aA][wW]
+*.[dD][nN][gG]
+*.[cC][rR]2
+*.[nN][eE][fF]
+*.[aA][rR][wW]
+*.[oO][rR][fF]
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[wW][eE][bB][mM]
+*.[fF][lL][vV]
+*.[oO][gG][vV]
+*.[mM]4[vV]
+*.[wW][mM][vV]
+*.[mM][pP][gG]
+*.[mM][pP][eE][gG]
+*.[3][gG][pP]
+*.[3][gG]2
+*.[mM][tT][sS]
+*.[mM]2[tT][sS]
+*.[vV][oO][bB]
+
+# Permitir solo lo esencial del repo
+!**/*.ipynb
+!**/*.md
+!requirements.txt
+
+# Variables de entorno locales (después de las excepciones)
+.env
+.env.*
